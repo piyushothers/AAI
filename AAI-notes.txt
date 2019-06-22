@@ -1,0 +1,478 @@
+2.Python for data science introduction
+---------------------------------------
+/*        09 Jun 2019, 11:21:25        
+2	5	1
+https://www.jquery-az.com/ways-reverse-string-python-reversed-extended-slice-objects/
+https://stackoverflow.com/questions/5618878/how-to-convert-list-to-string
+https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python
+https://medium.com/@tyastropheus/tricky-python-i-memory-management-for-mutable-immutable-objects-21507d1e5b95
+https://stackoverflow.com/questions/14193438/are-python-sets-mutable
+https://stackoverflow.com/questions/53483141/why-is-my-boolean-value-an-instance-of-int
+https://stackoverflow.com/questions/4828041/are-there-any-uses-of-the-empty-tuple-in-python
+https://imgur.com/a/vpm4RAB
+https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-a-dictionary
+https://www.geeksforgeeks.org/garbage-collection-python/
+https://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609
+https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
+When we apply addition and come to same in variable the storage location is same but not in case of division, mentioned as below, please explain
+
+x = 4/2
+y = 8/4
+print(id(x))
+print(id(y))
+
+Output
+2238951520968
+2238951521112
+
+
+
+x=1+2
+print(id(x))
+print(id(3))
+y= 1+1+1
+print(id(y))
+
+Output
+1947954304
+1947954304
+1947954304
+
+   Jul 20, 2018 15:16 PM
+ AppliedAI Course  
+when you divide the numbers, returns float value. please check this: https://imgur.com/Yp4M5RO
+https://docs.python.org/2/howto/unicode.html
+Yes, it will work. single underscore and double underscore has special purpose in python. Single Underscore: _ returns the value of last executed expression value in Python Prompt/Interpreter and Multiple time we do not want return values at that time assign those values to Underscore. It used as throwaway variable. __leading_double_underscore Leading double underscore tell python interpreter to rewrite name in order to avoid conflict in subclass.Interpreter changes variable name with class extension and that feature known as the Mangling.
+set store each and every element based on the hash whereas the list is not a hashable so set can't store it.
+https://stackoverflow.com/a/1486212/4084039
+https://stackoverflow.com/questions/28329498/why-does-a-space-affect-the-identity-comparison-of-equal-strings/#28329522
+https://imgur.com/FjseF1e
+
+-- so in python , the loop variable is also accessible outside the loop , just like hoisting in java . 
+-- 
+
+
+[
+    {
+        "text": "https://stackoverflow.com/questions/37593013/deep-copy-of-a-np-array-of-np-array/37593181",
+        "date": "09 Jun 2019, 17:33:29"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/38368318/installing-a-pip-package-from-within-a-jupyter-notebook-not-working",
+        "date": "09 Jun 2019, 17:33:15"
+    },
+    {
+        "text": "http://www.dummies.com/education/math/business-statistics/how-to-calculate-the-variance-and-standard-deviation-in-the-uniform-distribution",
+        "date": "09 Jun 2019, 17:32:46"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/44865261/what-is-the-difference-between-numpy-shares-memory-and-numpy-may-share-memory/44866536",
+        "date": "09 Jun 2019, 17:32:25"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/18233191/use-tuples-lists-as-array-indices-python",
+        "date": "09 Jun 2019, 17:27:41"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html",
+        "date": "09 Jun 2019, 17:27:22"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy/user/basics.creation.html",
+        "date": "09 Jun 2019, 17:23:25"
+    },
+    {
+        "text": "http://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2803/numpy-introduction/1/module-1-fundamentals-of-programming#comment5710",
+        "date": "09 Jun 2019, 17:22:55"
+    },
+    {
+        "text": "accessing an individual element of a numpy array in python or iterating through a numpy array in python is slower than the equivalent operation with a list. (Which is why you should never do something like y = [item * 2 for item in x] when x is a numpy array.)",
+        "date": "09 Jun 2019, 17:22:44"
+    },
+    {
+        "text": "https://docs.python.org/3/library/inspect.html#retrieving-source-code\n",
+        "date": "09 Jun 2019, 17:20:08"
+    },
+    {
+        "text": " https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.eye.html",
+        "date": "09 Jun 2019, 17:19:15"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy-1.15.0/reference/maskedarray.generic.html",
+        "date": "09 Jun 2019, 17:17:34"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/32208359/is-there-a-multi-dimensional-version-of-arange-linspace-in-numpy",
+        "date": "09 Jun 2019, 17:24:09"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/30344758/python-2d-array-with-linspace",
+        "date": "09 Jun 2019, 17:16:54"
+    },
+    {
+        "text": "6/8/2019\t6/8/2019\t6/8/2019\t\t1\t9",
+        "date": "09 Jun 2019, 17:10:53"
+    },
+    {
+        "text": "https://imgur.com/wNbuDbH and https://imgur.com/JMoFbV7",
+        "date": "09 Jun 2019, 17:09:33"
+    },
+    {
+        "text": "https://github.com/fporrata/MyWork/blob/Data-Science-and-Machine-Learning/Data_Science/Code%20Snippets/Numpy%20Tic-Tac-Toe/Numpy%20Tic-Tac-Toe.md",
+        "date": "09 Jun 2019, 17:00:57"
+    },
+    {
+        "text": "https://webcourses.ucf.edu/courses/1249560/pages/python-lists-vs-numpy-arrays-what-is-the-difference",
+        "date": "09 Jun 2019, 16:58:06"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/12414619/creating-a-3d-plot-from-a-3d-numpy-array",
+        "date": "09 Jun 2019, 16:53:31"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy-1.10.0/reference/arrays.dtypes.html",
+        "date": "09 Jun 2019, 16:52:34"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/13539968/how-can-i-find-the-dimensions-of-a-matrix-in-python/13540570",
+        "date": "09 Jun 2019, 16:51:56"
+    },
+    {
+        "text": "https://www.pythoncentral.io/the-difference-between-a-list-and-an-array/",
+        "date": "09 Jun 2019, 16:51:28"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/9405322/python-array-v-list",
+        "date": "09 Jun 2019, 16:51:10"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html",
+        "date": "09 Jun 2019, 16:50:38"
+    },
+    {
+        "text": "https://youtu.be/2s4TqVAbfz4?t=615",
+        "date": "09 Jun 2019, 16:50:09"
+    },
+    {
+        "text": "http://danielandreasen.github.io/:about/2015/01/19/masks-in-python/",
+        "date": "09 Jun 2019, 16:49:56"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/8385602/why-are-numpy-arrays-so-fast",
+        "date": "09 Jun 2019, 16:49:28"
+    },
+    {
+        "text": "https://docs.scipy.org/doc/numpy-1.15.0/user/basics.broadcasting.html",
+        "date": "09 Jun 2019, 16:48:39"
+    },
+    {
+        "text": "https://www.quora.com/Is-using-NumPy-faster-than-using-for-loops-to-handle-lists-and-why",
+        "date": "09 Jun 2019, 16:48:03"
+    },
+    {
+        "text": "http://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2803/numpy-introduction/1/module-1-fundamentals-of-programming#comment5802",
+        "date": "09 Jun 2019, 16:47:38"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/46045388/ipython-timeit-what-is-loop-and-iteration-in-the-options",
+        "date": "09 Jun 2019, 16:45:22"
+    },
+    {
+        "text": "https://www.tutorialspoint.com/numpy/numpy_indexing_and_slicing.htm",
+        "date": "09 Jun 2019, 16:44:50"
+    },
+    {
+        "text": "https://www.youtube.com/watch?v=zHMViQcLFjE",
+        "date": "09 Jun 2019, 16:43:33"
+    },
+    {
+        "text": "https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/",
+        "date": "09 Jun 2019, 16:43:00"
+    },
+    {
+        "text": "https://www.w3resource.com/python-exercises/",
+        "date": "09 Jun 2019, 16:41:23"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/12270954/difference-between-import-x-and-from-x-import",
+        "date": "09 Jun 2019, 15:12:13"
+    },
+    {
+        "text": "https://knowpapa.com/modpaclib-py/",
+        "date": "09 Jun 2019, 15:10:01"
+    },
+    {
+        "text": "https://medium.freecodecamp.org/how-to-publish-a-pyton-package-on-pypi-a89e9522ce24",
+        "date": "09 Jun 2019, 15:03:16"
+    },
+    {
+        "text": "Let's take for example a module named \"example\" is imported, the interpreter first searches for a built-in module with that name. If not found, it then searches for a file named example.py in the directory containing the input script (or the current directory when no file is specified) in most cases. Take a look at this: https://www.webucator.com/how-to/how-does-python-find-imported-modules.cfm",
+        "date": "09 Jun 2019, 15:01:17"
+    },
+    {
+        "text": "dir() is a powerful inbuilt function in Python3, which returns list of the attributes and methods of any object (say functions , modules, strings, lists, dictionaries etc.)",
+        "date": "09 Jun 2019, 15:00:25"
+    },
+    {
+        "text": "https://www.quora.com/What-is-the-difference-between-Python-modules-packages-libraries-and-frameworks",
+        "date": "09 Jun 2019, 14:58:01"
+    },
+    {
+        "text": "An object is hashable if it has a hash value which never changes during its lifetime (it needs a __hash__() method), and can be compared to other objects (it needs an __eq__() or __cmp__() method). Hashable objects which compare equal must have the same hash value.\n\nHashability makes an object usable as a dictionary key and a set member, because these data structures use the hash value internally.\n\nAll of Python’s immutable built-in objects are hashable, while no mutable containers (such as lists or dictionaries) are. Objects which are instances of user-defined classes are hashable by default; they all compare unequal, and their hash value is their id().",
+        "date": "09 Jun 2019, 14:17:11"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/50298005/the-nuances-of-object-s-address-in-memory-in-python-documentation-and-implemen",
+        "date": "09 Jun 2019, 14:14:31"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/42034/what-is-a-tuple-useful-for",
+        "date": "09 Jun 2019, 14:11:36"
+    },
+    {
+        "text": "https://stackoverflow.com/a/17202481",
+        "date": "09 Jun 2019, 14:09:54"
+    },
+    {
+        "text": "Python has two basic modes: normal and interactive. The normal mode is the mode where the scripted and finished .py files are run in the Python interpreter.\nInteractive mode is a command line shell which gives immediate feedback for each statement, while running previously fed statements in active memory. As new lines are fed into the interpreter, the fed program is evaluated both in part and in whole.",
+        "date": "09 Jun 2019, 14:08:01"
+    },
+    {
+        "text": "Tuples are Immutable, which means that after initializing a tuple, it is impossible to update individual items in a tuple.Since a tuple is basically like an array that is not modifiable, if sorted() returns a sortedtuple we cannot modify it.",
+        "date": "09 Jun 2019, 14:04:34"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/33801444/confused-about-python-s-id",
+        "date": "09 Jun 2019, 13:52:28"
+    },
+    {
+        "text": "6/8/2019\t6/8/2019\t6/8/2019\t\t2",
+        "date": "09 Jun 2019, 13:41:41"
+    },
+    {
+        "text": "\t0\t0\t0",
+        "date": "09 Jun 2019, 13:37:07"
+    },
+    {
+        "text": "4\t0\t0\t4",
+        "date": "09 Jun 2019, 13:32:40"
+    },
+    {
+        "text": "\n",
+        "date": "09 Jun 2019, 13:31:59"
+    },
+    {
+        "text": "2\t5\t1\t6",
+        "date": "09 Jun 2019, 13:30:54"
+    },
+    {
+        "text": "https://www.programiz.com/python-programming/list",
+        "date": "09 Jun 2019, 13:22:04"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/11520492/difference-between-del-remove-and-pop-on-lists",
+        "date": "09 Jun 2019, 13:21:12"
+    },
+    {
+        "text": "https://www.programiz.com/python-programming/generator",
+        "date": "09 Jun 2019, 13:12:57"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/24354645/what-happens-if-you-append-a-list-to-itself",
+        "date": "09 Jun 2019, 13:10:14"
+    },
+    {
+        "text": "https://www.geeksforgeeks.org/difference-between-map-applymap-and-apply-methods-in-pandas/",
+        "date": "09 Jun 2019, 13:08:39"
+    },
+    {
+        "text": "https://imgur.com/a/J9Bj5z5",
+        "date": "09 Jun 2019, 13:08:03"
+    },
+    {
+        "text": "https://imgur.com/yNszhod",
+        "date": "09 Jun 2019, 13:04:33"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/252703/what-is-the-difference-between-pythons-list-methods-append-and-extend",
+        "date": "09 Jun 2019, 13:04:28"
+    },
+    {
+        "text": " https://stackoverflow.com/questions/16341775/what-is-the-advantage-of-a-list-comprehension-over-a-for-loop",
+        "date": "09 Jun 2019, 13:00:07"
+    },
+    {
+        "text": "https://ideone.com/TOftrc",
+        "date": "09 Jun 2019, 12:52:26"
+    },
+    {
+        "text": "https://ideone.com/Ijh8XX",
+        "date": "09 Jun 2019, 12:52:23"
+    },
+    {
+        "text": "https://ideone.com/vLhvzX",
+        "date": "09 Jun 2019, 12:49:07"
+    },
+    {
+        "text": "https://stackoverflow.com/a/43984015/4084039",
+        "date": "09 Jun 2019, 12:43:47"
+    },
+    {
+        "text": "in terms of computational complexity, both pop and del are equal O(n-i) where n is the number of elements in the list and i is the index of the element to be removed",
+        "date": "09 Jun 2019, 12:42:27"
+    },
+    {
+        "text": "http://www.pythontutor.com/visualize.html#mode=edit",
+        "date": "09 Jun 2019, 12:38:20"
+    },
+    {
+        "text": "https://imgur.com/zYpruoQ",
+        "date": "09 Jun 2019, 12:34:11"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/2896752/removing-item-from-list-during-iteration-whats-wrong-with-this-idiom",
+        "date": "09 Jun 2019, 12:28:01"
+    },
+    {
+        "text": " https://imgur.com/a/Utncugs",
+        "date": "09 Jun 2019, 12:27:08"
+    },
+    {
+        "text": " https://imgur.com/a/ffhL1zG",
+        "date": "09 Jun 2019, 12:26:47"
+    },
+    {
+        "text": ",what is the difference between n.sort() and sorted(n)",
+        "date": "09 Jun 2019, 12:21:37"
+    },
+    {
+        "text": "1. Let me tell you why pop is better. When you are doing list1.remove(list1[0]), python internally stores the previous list into a temporary buffer, then use index function to point the element at 0 in that buffer say x1 and then call list1.remvoe(x1) and finally deletes that buffer. Which means more memory and time consumption. However list are internally stored into a doubly link list and hence you can go to and index in O(n) time and remove it in O(1) time inplace. 2. You can do that but while copying it stores the current computed value into a buffer and the reassigns it to superlist. If you would have used a separate variable, memory consumption would be same while assignment. But the real fun happens after you assign the value. If the GC is being called by python the it removes the old buffer seeing that it is unreachable. If that happens, you have saved some RAM but if it doesn't then you didn't. However, you can call the GC explicitly. 3. Can you please elaborate the question a bit?",
+        "date": "09 Jun 2019, 12:17:39"
+    },
+    {
+        "text": "\n/*        09 Jun 2019, 11:21:25        */\n\n\n6/10/2019\t6/9/2019\t6/9/2019\t6/8/2019\t\t\t\t\t\t\t\t2\t5\t1\n\n\n\n\n\n\n/*        09 Jun 2019, 11:19:37        */\n\n\n6/19/2019\n\n\n\n\n\n\n/*        09 Jun 2019, 11:15:08        */\n\n\n6/9/2019\n6/9/2019\n\n\n\n\n\n\n/*        09 Jun 2019, 11:15:04        */\n\n\n6/9/2019\n\n\n\n\n\n\n/*        09 Jun 2019, 11:21:12        */\n\n\n6/8/2019\n\n\n\n\n\n\n/*        09 Jun 2019, 11:08:05        */\n\n\n2\n\n\n\n\n\n\n/*        09 Jun 2019, 11:06:02        */\n\n\n0\n\n\n\n\n\n\n/*        09 Jun 2019, 10:58:22        */\n\n\nhttps://www.jquery-az.com/ways-reverse-string-python-reversed-extended-slice-objects/\n\n\n\n\n\n\n/*        09 Jun 2019, 10:58:12        */\n\n\nhttps://stackoverflow.com/questions/5618878/how-to-convert-list-to-string\n\n\n\n\n\n\n/*        09 Jun 2019, 10:58:07        */\n\n\nhttps://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python\n\n\n\n\n\n\n/*        09 Jun 2019, 10:58:04        */\n\n\nhttps://medium.com/@tyastropheus/tricky-python-i-memory-management-for-mutable-immutable-objects-21507d1e5b95\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:58        */\n\n\nhttps://stackoverflow.com/questions/14193438/are-python-sets-mutable\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:53        */\n\n\nhttps://stackoverflow.com/questions/53483141/why-is-my-boolean-value-an-instance-of-int\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:50        */\n\n\nhttps://stackoverflow.com/questions/4828041/are-there-any-uses-of-the-empty-tuple-in-python\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:47        */\n\n\nhttps://imgur.com/a/vpm4RAB\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:42        */\n\n\nhttps://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-a-dictionary\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:39        */\n\n\nhttps://www.geeksforgeeks.org/garbage-collection-python/\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:35        */\n\n\nhttps://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609\n\n\n\n\n\n\n/*        09 Jun 2019, 10:57:30        */\n\n\nhttps://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747\n\n\n\n\n\n\n/*        09 Jun 2019, 10:53:56        */\n\n\nWhen we apply addition and come to same in variable the storage location is same but not in case of division, mentioned as below, please explain\n\nx = 4/2\ny = 8/4\nprint(id(x))\nprint(id(y))\n\nOutput\n2238951520968\n2238951521112\n\n\n\nx=1+2\nprint(id(x))\nprint(id(3))\ny= 1+1+1\nprint(id(y))\n\nOutput\n1947954304\n1947954304\n1947954304\n\n   Jul 20, 2018 15:16 PM\n AppliedAI Course  \nwhen you divide the numbers, returns float value. please check this: https://imgur.com/Yp4M5RO\n\n\n\n\n\n\n/*        09 Jun 2019, 10:29:32        */\n\n\nhttps://docs.python.org/2/howto/unicode.html\n\n\n\n\n\n\n/*        09 Jun 2019, 10:26:28        */\n\n\nYes, it will work. single underscore and double underscore has special purpose in python. Single Underscore: _ returns the value of last executed expression value in Python Prompt/Interpreter and Multiple time we do not want return values at that time assign those values to Underscore. It used as throwaway variable. __leading_double_underscore Leading double underscore tell python interpreter to rewrite name in order to avoid conflict in subclass.Interpreter changes variable name with class extension and that feature known as the Mangling.\n\n\n\n\n\n\n/*        09 Jun 2019, 10:21:27        */\n\n\nset store each and every element based on the hash whereas the list is not a hashable so set can't store it.\n\n\n\n\n\n\n/*        09 Jun 2019, 10:20:41        */\n\n\nhttps://stackoverflow.com/a/1486212/4084039\n\n\n\n\n\n\n\n\n\nhttps://stackoverflow.com/questions/28329498/why-does-a-space-affect-the-identity-comparison-of-equal-strings/#28329522\n\n\n\n\n\n\n/*        09 Jun 2019, 10:15:32        */\n\n\nhttps://imgur.com/FjseF1e",
+        "date": "09 Jun 2019, 12:03:54"
+    },
+    {
+        "text": "6/10/2019\t6/9/2019\t6/9/2019\t6/8/2019\t\t\t\t\t\t\t\t2\t5\t1",
+        "date": "09 Jun 2019, 11:21:25"
+    },
+    {
+        "text": "6/19/2019",
+        "date": "09 Jun 2019, 11:19:37"
+    },
+    {
+        "text": "6/9/2019\n6/9/2019",
+        "date": "09 Jun 2019, 11:15:08"
+    },
+    {
+        "text": "6/9/2019",
+        "date": "09 Jun 2019, 11:15:04"
+    },
+    {
+        "text": "6/8/2019",
+        "date": "09 Jun 2019, 11:21:12"
+    },
+    {
+        "text": "2",
+        "date": "09 Jun 2019, 11:08:05"
+    },
+    {
+        "text": "0",
+        "date": "09 Jun 2019, 11:06:02"
+    },
+    {
+        "text": "https://www.jquery-az.com/ways-reverse-string-python-reversed-extended-slice-objects/",
+        "date": "09 Jun 2019, 10:58:22"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/5618878/how-to-convert-list-to-string",
+        "date": "09 Jun 2019, 10:58:12"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python",
+        "date": "09 Jun 2019, 10:58:07"
+    },
+    {
+        "text": "https://medium.com/@tyastropheus/tricky-python-i-memory-management-for-mutable-immutable-objects-21507d1e5b95",
+        "date": "09 Jun 2019, 10:58:04"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/14193438/are-python-sets-mutable",
+        "date": "09 Jun 2019, 10:57:58"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/53483141/why-is-my-boolean-value-an-instance-of-int",
+        "date": "09 Jun 2019, 10:57:53"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/4828041/are-there-any-uses-of-the-empty-tuple-in-python",
+        "date": "09 Jun 2019, 10:57:50"
+    },
+    {
+        "text": "https://imgur.com/a/vpm4RAB",
+        "date": "09 Jun 2019, 10:57:47"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-a-dictionary",
+        "date": "09 Jun 2019, 10:57:42"
+    },
+    {
+        "text": "https://www.geeksforgeeks.org/garbage-collection-python/",
+        "date": "09 Jun 2019, 10:57:39"
+    },
+    {
+        "text": "https://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609",
+        "date": "09 Jun 2019, 10:57:35"
+    },
+    {
+        "text": "https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747",
+        "date": "09 Jun 2019, 10:57:30"
+    },
+    {
+        "text": "When we apply addition and come to same in variable the storage location is same but not in case of division, mentioned as below, please explain\n\nx = 4/2\ny = 8/4\nprint(id(x))\nprint(id(y))\n\nOutput\n2238951520968\n2238951521112\n\n\n\nx=1+2\nprint(id(x))\nprint(id(3))\ny= 1+1+1\nprint(id(y))\n\nOutput\n1947954304\n1947954304\n1947954304\n\n   Jul 20, 2018 15:16 PM\n AppliedAI Course  \nwhen you divide the numbers, returns float value. please check this: https://imgur.com/Yp4M5RO",
+        "date": "09 Jun 2019, 10:53:56"
+    },
+    {
+        "text": "https://docs.python.org/2/howto/unicode.html",
+        "date": "09 Jun 2019, 10:29:32"
+    },
+    {
+        "text": "Yes, it will work. single underscore and double underscore has special purpose in python. Single Underscore: _ returns the value of last executed expression value in Python Prompt/Interpreter and Multiple time we do not want return values at that time assign those values to Underscore. It used as throwaway variable. __leading_double_underscore Leading double underscore tell python interpreter to rewrite name in order to avoid conflict in subclass.Interpreter changes variable name with class extension and that feature known as the Mangling.",
+        "date": "09 Jun 2019, 10:26:28"
+    },
+    {
+        "text": "set store each and every element based on the hash whereas the list is not a hashable so set can't store it.",
+        "date": "09 Jun 2019, 10:21:27"
+    },
+    {
+        "text": "https://stackoverflow.com/a/1486212/4084039",
+        "date": "09 Jun 2019, 10:20:41"
+    },
+    {
+        "text": "https://stackoverflow.com/questions/28329498/why-does-a-space-affect-the-identity-comparison-of-equal-strings/#28329522",
+        "date": "09 Jun 2019, 10:17:04"
+    },
+    {
+        "text": "https://imgur.com/FjseF1e",
+        "date": "09 Jun 2019, 10:15:32"
+    },
+    {
+        "text": "pfphnyrbrnvqcfwn\ndeleted \n\nexplore\n- webgl \n- unity\n- gaming\n- haskell\n- haskell web\n- haskell multithreading\n- jvm \n- clojure\n- oracle db certification \n\n10x\n- HEP100\n- AAI\n- OS\n- algorithms ( cormen ) \n- DBMS ( college book) \n- Mathematics book\n- essentials of programming language\n- books for coding interview\n- automata\n- compiler design \n- python\n- data science \n- mathematics degree\n\n2X\n- node\n- aws complete certification suite \n- aws professional\n- browse stack overflow remotes\n- scala \n- scala play\n- Hadoop \n- apache spark\n- react native\n- python\n- python fw\nAUZUVAREGMQ2\t\n\\\n\n1.2\n- spring\n- spring boot\n- hibernate\n- nest js\n- typeorm\n- typescript \n- karma \n- jasmine\n- enzyme\n- jest\n- junit4\n- socketio\n- graphql\n- html5\n- css3\n- bootstrap4\n- design patterns\n- refactoring\n- zuul\n- docker and kubernetes\n- firebase\n- alexa\n- python \n- django\n- jpa\n- kafka\n- cypress\n- java 8 khalid mughal\n\nwork-next\n- docker and kubernetes\n- python \n- AAI\n- aws certifications\n- nestjs\n- typeorm\n- node advanced\n- graphql\n- react native\n- typescript\n- deep learning coursera \n\n\n\n\n\n- create a react list component which doesn’t change the keys when some of the elements are deleted . \n\n\n",
+        "date": "08 Jun 2019, 22:47:56"
+    },
+    {
+        "text": "- webgl \n- unity\n- gaming\n- haskell\n- haskell web\n- haskell multithreading\n- jvm \n- clojure\n- oracle db certification \n",
+        "date": "08 Jun 2019, 18:11:14"
+    },
+    {
+        "text": "s.no\ttopic\tread + code\t\"r + q\n\"\tgoogle + answer + code\t\ta vs b dfs\tletter\t\"cartoon\n\"\t\tmovie\tIY",
+        "date": "08 Jun 2019, 11:08:14"
+    }
+]
+
+
+
+
+
+1.
